@@ -1,0 +1,18 @@
+1)First we have to create new repository
+
+2)Now clone it to any folder using CMD
+									Git clone https://github.com/dineshkumar9459/Git-CMD.git
+3)Go to that folder by cd git-folder Now once check the status by 	git status
+4) now to add type 					 		git add . 
+5)and to commit and add this to separate branch type	 		git commit -m “First-master”
+6)to see all the commits and branches use		 		git log
+7)to push code to github use 						git push
+8)check the code oi updated or not by 					git status
+9)and add all to the git by 						git add .
+10)
+this all different commits is to check every code if new code is not working we can go back
+11)	
+
+
+
+
