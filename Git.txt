@@ -24,6 +24,12 @@ Creating branches
 5)	git add .    git commit -m "new txt file added"  this is to add any file and commit
 
 
+Delete commits
+1)	git log 						to see all commits and copy the commit id
+2)	git revert 857a6863ec451d82453c188d9b20e597f9b18d9a	it will delete that commit files and txt all 
+3)								now the file only delete in the folder not in the github
+4)	git push 						so you have to git push again to delete and uplode changes 
+
 
 
 

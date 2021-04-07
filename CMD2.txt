@@ -1,0 +1,143 @@
+git init
+
+touch index.html
+
+git add index.html
+
+git rm --cached index.html
+
+git status
+
+git config --global user.name dinesh
+
+git config --global user.email dineshkumar.k18@iiits.in
+
+git config user.email
+
+git config user.name
+
+git add .
+
+git commit -m "add"
+
+git add .
+
+git commit -m "NEW"
+
+git add .
+
+git commit -m "NEW2"
+
+git add .
+
+git commit -m "NEW3"
+
+
+
+C:\Users\dineshkumar\Downloads\Compressed\CODE\gitt\git-one (master)
+
+git log
+
+commit a804ca9055e443834a370fcfbb017ec0c0085509 (HEAD -> master)
+Author: dinesh <dineshkumar.k18@iiits.in>
+Date:   Thu Jun 25 23:32:25 2020 +0530
+
+NEW3
+
+commit b44d9082320934744619e301ccd8f01891710d7a
+		Author: dinesh <dineshkumar.k18@iiits.in>
+Date:   Thu Jun 25 23:30:45 2020 +0530
+
+    NEW2
+
+commit 3cd00551f12c9394dc7fac3fea664b768197c1f3
+Author: dinesh <dineshkumar.k18@iiits.in>
+Date:   Thu Jun 25 23:29:14 2020 +0530
+
+    NEW
+
+commit 03d7c8e06eba4b715fb3cbf0024d8828c71ccb49
+Author: dinesh <dineshkumar.k18@iiits.in>
+Date:   Thu Jun 25 23:27:10 2020 +0530
+
+    add
+
+
+git log --oneline
+a804ca9 (HEAD -> master) NEW3
+b44d908 NEW2
+3cd0055 NEW
+03d7c8e add
+
+
+
+git checkout b44d908  // this will go to the which stage we selected 
+
+git checkout master  //  with this we can go back
+
+git revert b44d908
+
+
+git reset f52c744  // will change in termenal
+ 
+git reset f52c744 --hard  // will change full code 
+
+
+
+
+git branch feature-1  // this will creat the branch to new creater after we can merge
+
+
+git branch -a   // this to check which branch we are 
+
+git checkout feature-1
+git checkout master       // this to 
+
+git checkout -b feature-2   // this to creat and go to that branch at once
+
+git branch -D feature-1   // to delete
+
+git merge fe-a  // merge 
+
+
+
+git status
+git remote add origin https://github.com/dineshkumar9459/git-file.git
+
+git clone https://github.com/dineshkumar9459/git-file.git
+git remote -v  	// cloned files will set origin
+
+git push origin master
+
+dineshkumar9459
+Dinesh@45
+
+git checkout -b index.html
+git add .
+git commit -m "added box code "
+git push origin index.html
+git checkout master
+git pull origin master
+
+
+
+
+λ touch index.html
+λ git init
+λ git add .
+λ git commit -m "add some files"
+
+λ git branch newdata
+λ git branch -a
+* master
+  newdata
+λ git checkout newdata
+λ git remote add origin https://github.com/dineshkumar9459/grsmy.git
+λ git checkout master
+λ git push origin master
+
+λ git checkout newdata
+λ touch js.html
+λ git add .
+λ git commit -m "i added data"
+λ git push origin newdata
