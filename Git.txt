@@ -14,7 +14,7 @@ this all different commits is to check every code if new code is not working we 
 
 
 Creating branches 
--------------------
+-----------------
 
 1)	git branch newbranch 		it will create new branch 
 2)	git branch -a 			to check how many branches
