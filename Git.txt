@@ -11,7 +11,16 @@
 9)and add all to the git by 						git add .
 10)
 this all different commits is to check every code if new code is not working we can go back
-11)	
+
+
+Creating branches 
+1)	git branch newbranch 		it will create new branch 
+2)	git branch -a 			to check how many branches
+3)	git checkout newbranch  	to change branch
+4)	git push origin newbranch 	to push code to branch not to master 
+
+5)	git add .    git commit -m "new txt file added"  this is to add any file and commit
+
 
 
 
