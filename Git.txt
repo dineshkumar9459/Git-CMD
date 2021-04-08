@@ -1,7 +1,7 @@
 1)First we have to create new repository
 
 2)Now clone it to any folder using CMD
-									Git clone https://github.com/dineshkumar9459/Git-CMD.git
+									git clone https://github.com/dineshkumar9459/Git-CMD.git
 3)Go to that folder by cd git-folder Now once check the status by 	git status
 4) now to add type 					 		git add . 
 5)and to commit and add this to separate branch type	 		git commit -m “First-master”
